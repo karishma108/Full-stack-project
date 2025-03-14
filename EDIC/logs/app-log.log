@@ -1,0 +1,164 @@
+2024-10-25T02:05:38.139-05:00  INFO 9300 --- [EDIC] [main] Members.EDIC.EdicApplicationTests        : Starting EdicApplicationTests using Java 22.0.1 with PID 9300 (started by hp in C:\Members\EDIC.Members\EDIC)
+2024-10-25T02:05:38.144-05:00  INFO 9300 --- [EDIC] [main] Members.EDIC.EdicApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2024-10-25T02:05:40.521-05:00  INFO 9300 --- [EDIC] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-25T02:05:40.697-05:00  INFO 9300 --- [EDIC] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 152 ms. Found 1 JPA repository interface.
+2024-10-25T02:05:42.228-05:00  INFO 9300 --- [EDIC] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-25T02:05:42.590-05:00  INFO 9300 --- [EDIC] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-25T02:05:42.768-05:00  INFO 9300 --- [EDIC] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-25T02:05:44.059-05:00  INFO 9300 --- [EDIC] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-25T02:05:44.195-05:00  INFO 9300 --- [EDIC] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-25T02:05:45.494-05:00  INFO 9300 --- [EDIC] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@45571cfc
+2024-10-25T02:05:45.500-05:00  INFO 9300 --- [EDIC] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-25T02:05:45.674-05:00  WARN 9300 --- [EDIC] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-25T02:05:49.483-05:00  INFO 9300 --- [EDIC] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-25T02:05:49.784-05:00  INFO 9300 --- [EDIC] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-25T02:05:51.686-05:00  WARN 9300 --- [EDIC] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-25T02:05:53.348-05:00  INFO 9300 --- [EDIC] [main] Members.EDIC.EdicApplicationTests        : Started EdicApplicationTests in 16.659 seconds (process running for 21.125)
+2024-10-25T02:05:56.571-05:00  INFO 9300 --- [EDIC] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-25T02:05:56.579-05:00  INFO 9300 --- [EDIC] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-25T02:05:56.620-05:00  INFO 9300 --- [EDIC] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-25T02:12:13.409-05:00  INFO 2408 --- [EDIC] [main] Members.EDIC.EdicApplicationTests        : Starting EdicApplicationTests using Java 22.0.1 with PID 2408 (started by hp in C:\Members\EDIC.Members\EDIC)
+2024-10-25T02:12:13.414-05:00  INFO 2408 --- [EDIC] [main] Members.EDIC.EdicApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2024-10-25T02:12:16.875-05:00  INFO 2408 --- [EDIC] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-25T02:12:17.078-05:00  INFO 2408 --- [EDIC] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 176 ms. Found 1 JPA repository interface.
+2024-10-25T02:12:19.359-05:00  INFO 2408 --- [EDIC] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-25T02:12:19.703-05:00  INFO 2408 --- [EDIC] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-25T02:12:20.039-05:00  INFO 2408 --- [EDIC] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-25T02:12:21.674-05:00  INFO 2408 --- [EDIC] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-25T02:12:21.795-05:00  INFO 2408 --- [EDIC] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-25T02:12:22.759-05:00  INFO 2408 --- [EDIC] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6f0c45f4
+2024-10-25T02:12:22.764-05:00  INFO 2408 --- [EDIC] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-25T02:12:22.921-05:00  WARN 2408 --- [EDIC] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-25T02:12:27.895-05:00  INFO 2408 --- [EDIC] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-25T02:12:28.127-05:00  INFO 2408 --- [EDIC] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-25T02:12:29.901-05:00  WARN 2408 --- [EDIC] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-25T02:12:31.819-05:00  INFO 2408 --- [EDIC] [main] Members.EDIC.EdicApplicationTests        : Started EdicApplicationTests in 20.73 seconds (process running for 28.447)
+2024-10-25T02:12:34.445-05:00  INFO 2408 --- [EDIC] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-25T02:12:34.452-05:00  INFO 2408 --- [EDIC] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-25T02:12:34.530-05:00  INFO 2408 --- [EDIC] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-25T02:26:19.507-05:00  INFO 12896 --- [EDIC] [main] Members.EDIC.EdicApplicationTests        : Starting EdicApplicationTests using Java 22.0.1 with PID 12896 (started by hp in C:\Members\EDIC.Members\EDIC)
+2024-10-25T02:26:19.515-05:00  INFO 12896 --- [EDIC] [main] Members.EDIC.EdicApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2024-10-25T02:26:22.619-05:00  INFO 12896 --- [EDIC] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-25T02:26:22.866-05:00  INFO 12896 --- [EDIC] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 214 ms. Found 1 JPA repository interface.
+2024-10-25T02:26:24.581-05:00  INFO 12896 --- [EDIC] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-25T02:26:24.916-05:00  INFO 12896 --- [EDIC] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-25T02:26:25.126-05:00  INFO 12896 --- [EDIC] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-25T02:26:26.728-05:00  INFO 12896 --- [EDIC] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-25T02:26:26.886-05:00  INFO 12896 --- [EDIC] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-25T02:26:27.522-05:00  INFO 12896 --- [EDIC] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6f0c45f4
+2024-10-25T02:26:27.526-05:00  INFO 12896 --- [EDIC] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-25T02:26:27.653-05:00  WARN 12896 --- [EDIC] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-25T02:26:30.454-05:00  INFO 12896 --- [EDIC] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-25T02:26:30.699-05:00  INFO 12896 --- [EDIC] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-25T02:26:31.798-05:00  WARN 12896 --- [EDIC] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-25T02:26:32.782-05:00  INFO 12896 --- [EDIC] [main] Members.EDIC.EdicApplicationTests        : Started EdicApplicationTests in 14.364 seconds (process running for 16.998)
+2024-10-25T02:26:34.307-05:00  INFO 12896 --- [EDIC] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-25T02:26:34.318-05:00  INFO 12896 --- [EDIC] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-25T02:26:34.360-05:00  INFO 12896 --- [EDIC] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-25T02:41:35.063-05:00  INFO 14132 --- [EDIC] [main] Members.EDIC.EdicApplication             : Starting EdicApplication v0.0.1-SNAPSHOT using Java 22.0.1 with PID 14132 (C:\Members\EDIC.Members\EDIC\target\EDIC-0.0.1-SNAPSHOT.jar started by hp in C:\Members\EDIC.Members\EDIC)
+2024-10-25T02:41:35.079-05:00  INFO 14132 --- [EDIC] [main] Members.EDIC.EdicApplication             : No active profile set, falling back to 1 default profile: "default"
+2024-10-25T02:41:37.645-05:00  INFO 14132 --- [EDIC] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-25T02:41:37.820-05:00  INFO 14132 --- [EDIC] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 146 ms. Found 1 JPA repository interface.
+2024-10-25T02:41:39.379-05:00  INFO 14132 --- [EDIC] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-25T02:41:39.442-05:00  INFO 14132 --- [EDIC] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-25T02:41:39.444-05:00  INFO 14132 --- [EDIC] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-25T02:41:39.596-05:00  INFO 14132 --- [EDIC] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-25T02:41:39.598-05:00  INFO 14132 --- [EDIC] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4303 ms
+2024-10-25T02:41:40.103-05:00  INFO 14132 --- [EDIC] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-25T02:41:40.311-05:00  INFO 14132 --- [EDIC] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-25T02:41:40.444-05:00  INFO 14132 --- [EDIC] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-25T02:41:41.452-05:00  INFO 14132 --- [EDIC] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-25T02:41:41.569-05:00  INFO 14132 --- [EDIC] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-25T02:41:42.690-05:00  INFO 14132 --- [EDIC] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@35dcd032
+2024-10-25T02:41:42.704-05:00  INFO 14132 --- [EDIC] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-25T02:41:42.894-05:00  WARN 14132 --- [EDIC] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-25T02:41:45.337-05:00  INFO 14132 --- [EDIC] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-25T02:41:45.470-05:00  INFO 14132 --- [EDIC] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-25T02:41:46.227-05:00  WARN 14132 --- [EDIC] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-25T02:41:47.958-05:00  INFO 14132 --- [EDIC] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-25T02:41:48.023-05:00  INFO 14132 --- [EDIC] [main] Members.EDIC.EdicApplication             : Started EdicApplication in 14.639 seconds (process running for 16.512)
+2024-10-25T02:43:29.251-05:00  INFO 14132 --- [EDIC] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-25T02:43:29.253-05:00  INFO 14132 --- [EDIC] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-25T02:43:29.260-05:00  INFO 14132 --- [EDIC] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-10-25T02:52:09.125-05:00  INFO 9448 --- [EDIC] [main] Members.EDIC.EdicApplicationTests        : Starting EdicApplicationTests using Java 17.0.12 with PID 9448 (started by hp in C:\Members\EDIC.Members\EDIC)
+2024-10-25T02:52:09.131-05:00  INFO 9448 --- [EDIC] [main] Members.EDIC.EdicApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2024-10-25T02:52:11.424-05:00  INFO 9448 --- [EDIC] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-25T02:52:11.607-05:00  INFO 9448 --- [EDIC] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 151 ms. Found 1 JPA repository interface.
+2024-10-25T02:52:13.412-05:00  INFO 9448 --- [EDIC] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-25T02:52:14.098-05:00  INFO 9448 --- [EDIC] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-25T02:52:14.414-05:00  INFO 9448 --- [EDIC] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-25T02:52:15.592-05:00  INFO 9448 --- [EDIC] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-25T02:52:15.710-05:00  INFO 9448 --- [EDIC] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-25T02:52:16.348-05:00  INFO 9448 --- [EDIC] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@56d822dc
+2024-10-25T02:52:16.354-05:00  INFO 9448 --- [EDIC] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-25T02:52:16.469-05:00  WARN 9448 --- [EDIC] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-25T02:52:19.425-05:00  INFO 9448 --- [EDIC] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-25T02:52:19.589-05:00  INFO 9448 --- [EDIC] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-25T02:52:20.518-05:00  WARN 9448 --- [EDIC] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-25T02:52:22.595-05:00  INFO 9448 --- [EDIC] [main] Members.EDIC.EdicApplicationTests        : Started EdicApplicationTests in 14.899 seconds (process running for 18.295)
+2024-10-25T02:52:25.119-05:00  INFO 9448 --- [EDIC] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-25T02:52:25.126-05:00  INFO 9448 --- [EDIC] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-25T02:52:25.216-05:00  INFO 9448 --- [EDIC] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-25T12:32:25.670-05:00  INFO 22448 --- [EDIC] [main] Members.EDIC.EdicApplicationTests        : Starting EdicApplicationTests using Java 22.0.1 with PID 22448 (started by hp in C:\Members\EDIC.Members\EDIC)
+2024-10-25T12:32:25.680-05:00  INFO 22448 --- [EDIC] [main] Members.EDIC.EdicApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2024-10-25T12:32:29.120-05:00  INFO 22448 --- [EDIC] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-25T12:32:29.443-05:00  INFO 22448 --- [EDIC] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 272 ms. Found 1 JPA repository interface.
+2024-10-25T12:32:30.660-05:00  INFO 22448 --- [EDIC] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-25T12:32:30.832-05:00  INFO 22448 --- [EDIC] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-25T12:32:30.925-05:00  INFO 22448 --- [EDIC] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-25T12:32:32.069-05:00  INFO 22448 --- [EDIC] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-25T12:32:32.308-05:00  INFO 22448 --- [EDIC] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-25T12:32:32.936-05:00  INFO 22448 --- [EDIC] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@41a23470
+2024-10-25T12:32:32.940-05:00  INFO 22448 --- [EDIC] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-25T12:32:33.047-05:00  WARN 22448 --- [EDIC] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-25T12:32:36.186-05:00  INFO 22448 --- [EDIC] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-25T12:32:36.348-05:00  INFO 22448 --- [EDIC] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-25T12:32:37.651-05:00  WARN 22448 --- [EDIC] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-25T12:32:38.937-05:00  INFO 22448 --- [EDIC] [main] Members.EDIC.EdicApplicationTests        : Started EdicApplicationTests in 14.337 seconds (process running for 17.358)
+2024-10-25T12:32:40.364-05:00  INFO 22448 --- [EDIC] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-25T12:32:40.371-05:00  INFO 22448 --- [EDIC] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-25T12:32:40.430-05:00  INFO 22448 --- [EDIC] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-25T12:42:11.183-05:00  INFO 21172 --- [EDIC] [main] Members.EDIC.EdicApplicationTests        : Starting EdicApplicationTests using Java 22.0.1 with PID 21172 (started by hp in C:\Members\EDIC.Members\EDIC)
+2024-10-25T12:42:11.194-05:00  INFO 21172 --- [EDIC] [main] Members.EDIC.EdicApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2024-10-25T12:42:13.134-05:00  INFO 21172 --- [EDIC] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-25T12:42:13.296-05:00  INFO 21172 --- [EDIC] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 117 ms. Found 1 JPA repository interface.
+2024-10-25T12:42:14.527-05:00  INFO 21172 --- [EDIC] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-25T12:42:14.703-05:00  INFO 21172 --- [EDIC] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-25T12:42:14.805-05:00  INFO 21172 --- [EDIC] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-25T12:42:15.777-05:00  INFO 21172 --- [EDIC] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-25T12:42:15.873-05:00  INFO 21172 --- [EDIC] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-25T12:42:16.548-05:00  INFO 21172 --- [EDIC] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6c27e700
+2024-10-25T12:42:16.553-05:00  INFO 21172 --- [EDIC] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-25T12:42:16.733-05:00  WARN 21172 --- [EDIC] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-25T12:42:21.490-05:00  INFO 21172 --- [EDIC] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-25T12:42:21.768-05:00  INFO 21172 --- [EDIC] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-25T12:42:23.293-05:00  WARN 21172 --- [EDIC] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-25T12:42:24.955-05:00  INFO 21172 --- [EDIC] [main] Members.EDIC.EdicApplicationTests        : Started EdicApplicationTests in 14.811 seconds (process running for 17.82)
+2024-10-25T12:42:27.119-05:00  INFO 21172 --- [EDIC] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-25T12:42:27.126-05:00  INFO 21172 --- [EDIC] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-25T12:42:27.175-05:00  INFO 21172 --- [EDIC] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-25T12:55:18.442-05:00  INFO 10096 --- [EDIC] [main] Members.EDIC.EdicApplication             : Starting EdicApplication using Java 22.0.1 with PID 10096 (C:\Members\EDIC.Members\EDIC\target\classes started by hp in C:\Members\EDIC.Members\EDIC)
+2024-10-25T12:55:18.448-05:00  INFO 10096 --- [EDIC] [main] Members.EDIC.EdicApplication             : No active profile set, falling back to 1 default profile: "default"
+2024-10-25T12:55:19.926-05:00  INFO 10096 --- [EDIC] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-25T12:55:20.063-05:00  INFO 10096 --- [EDIC] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 121 ms. Found 1 JPA repository interface.
+2024-10-25T12:55:21.119-05:00  INFO 10096 --- [EDIC] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-25T12:55:21.157-05:00  INFO 10096 --- [EDIC] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-25T12:55:21.159-05:00  INFO 10096 --- [EDIC] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-25T12:55:21.328-05:00  INFO 10096 --- [EDIC] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-25T12:55:21.330-05:00  INFO 10096 --- [EDIC] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2767 ms
+2024-10-25T12:55:21.640-05:00  INFO 10096 --- [EDIC] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-25T12:55:21.775-05:00  INFO 10096 --- [EDIC] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-25T12:55:21.861-05:00  INFO 10096 --- [EDIC] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-25T12:55:22.492-05:00  INFO 10096 --- [EDIC] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-25T12:55:22.563-05:00  INFO 10096 --- [EDIC] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-25T12:55:22.955-05:00  INFO 10096 --- [EDIC] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@720a1fd0
+2024-10-25T12:55:22.959-05:00  INFO 10096 --- [EDIC] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-25T12:55:23.048-05:00  WARN 10096 --- [EDIC] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-25T12:55:25.150-05:00  INFO 10096 --- [EDIC] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-25T12:55:25.284-05:00  INFO 10096 --- [EDIC] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-25T12:55:25.779-05:00  WARN 10096 --- [EDIC] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-25T12:55:26.658-05:00  INFO 10096 --- [EDIC] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-25T12:55:26.673-05:00  INFO 10096 --- [EDIC] [main] Members.EDIC.EdicApplication             : Started EdicApplication in 9.282 seconds (process running for 10.028)
+2024-10-25T12:55:36.155-05:00  INFO 10096 --- [EDIC] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-25T12:55:36.157-05:00  INFO 10096 --- [EDIC] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-25T12:55:36.161-05:00  INFO 10096 --- [EDIC] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
