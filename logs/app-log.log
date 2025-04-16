@@ -1,0 +1,19 @@
+2025-03-26T15:40:48.637+05:30  INFO 2004 --- [EDIC] [main] Members.EDIC.EdicApplicationTests        : Starting EdicApplicationTests using Java 22.0.1 with PID 2004 (started by hp in C:\Members\EDIC.Members\EDIC)
+2025-03-26T15:40:48.657+05:30  INFO 2004 --- [EDIC] [main] Members.EDIC.EdicApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2025-03-26T15:40:50.560+05:30  INFO 2004 --- [EDIC] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-26T15:40:50.665+05:30  INFO 2004 --- [EDIC] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 91 ms. Found 1 JPA repository interface.
+2025-03-26T15:40:51.474+05:30  INFO 2004 --- [EDIC] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-26T15:40:51.608+05:30  INFO 2004 --- [EDIC] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-03-26T15:40:51.686+05:30  INFO 2004 --- [EDIC] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-26T15:40:52.348+05:30  INFO 2004 --- [EDIC] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-26T15:40:52.462+05:30  INFO 2004 --- [EDIC] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-26T15:40:53.100+05:30  INFO 2004 --- [EDIC] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@708769b7
+2025-03-26T15:40:53.102+05:30  INFO 2004 --- [EDIC] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-26T15:40:53.200+05:30  WARN 2004 --- [EDIC] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-26T15:40:54.930+05:30  INFO 2004 --- [EDIC] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-26T15:40:55.117+05:30  INFO 2004 --- [EDIC] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-26T15:40:55.899+05:30  WARN 2004 --- [EDIC] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-26T15:40:56.797+05:30  INFO 2004 --- [EDIC] [main] Members.EDIC.EdicApplicationTests        : Started EdicApplicationTests in 8.846 seconds (process running for 11.166)
+2025-03-26T15:40:57.688+05:30  INFO 2004 --- [EDIC] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-26T15:40:57.694+05:30  INFO 2004 --- [EDIC] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-26T15:40:57.735+05:30  INFO 2004 --- [EDIC] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
